@@ -1,0 +1,359 @@
+2018-12-25_18 18:18:19.716 INFO  [main] com.example.news.NewsApplication - Starting NewsApplication on localhost with PID 57248 (/Users/lcxy_demo/IdeaProjects/news/target/classes started by lcxy_demo in /Users/lcxy_demo/IdeaProjects/news)
+2018-12-25_18 18:18:19.728 INFO  [main] com.example.news.NewsApplication - The following profiles are active: dev
+2018-12-25_18 18:18:19.882 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1139b2f3: startup date [Tue Dec 25 18:18:19 CST 2018]; root of context hierarchy
+2018-12-25_18 18:18:20.040 INFO  [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2018-12-25_18 18:18:23.924 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.news.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$bbf311c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:23.955 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [com.example.news.config.ValidatorConfig$$EnhancerBySpringCGLIB$$9ec5274d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:24.033 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validator' of type [org.hibernate.validator.internal.engine.ValidatorImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:24.538 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:24.563 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$7e632166] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:24.577 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$653ac5a8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:24.580 INFO  [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2018-12-25_18 18:18:24.731 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:24.744 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:25.263 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:25.571 INFO  [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-25_18 18:18:25.572 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:25.581 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:25.594 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:25.700 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authenticationMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:25.704 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authenticationMapper' of type [com.sun.proxy.$Proxy67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:25.707 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authManager' of type [com.example.news.manager.AuthManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:25.707 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authService' of type [com.example.news.service.AuthService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:25.708 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myRealm' of type [com.example.news.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:26.047 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:26.102 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:26.144 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4b8ed036] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:18:27.016 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8083 (http)
+2018-12-25_18 18:18:27.234 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2018-12-25_18 18:18:27.303 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-25_18 18:18:27.305 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-12-25_18 18:18:27.517 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-25_18 18:18:27.518 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7636 ms
+2018-12-25_18 18:18:27.944 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-25_18 18:18:27.946 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-12-25_18 18:18:27.951 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-25_18 18:18:27.952 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-25_18 18:18:27.953 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-25_18 18:18:27.953 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-25_18 18:18:27.953 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-25_18 18:18:27.953 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'shiroFilter' to: [/*]
+2018-12-25_18 18:18:29.711 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/get_role],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.AuthController.getRole() throws com.example.news.exception.SuccessException
+2018-12-25_18 18:18:29.714 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/login],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.AuthController.login(com.example.news.domain.dto.LoginDTO)
+2018-12-25_18 18:18:29.715 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/refresh_token],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.AuthController.refreshToken()
+2018-12-25_18 18:18:29.715 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/require_auth],methods=[GET]}" onto public com.example.news.commonbox.Result com.example.news.controller.AuthController.requireAuth()
+2018-12-25_18 18:18:29.716 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/require_role],methods=[GET]}" onto public com.example.news.commonbox.Result com.example.news.controller.AuthController.requireRole()
+2018-12-25_18 18:18:29.716 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/require_permission],methods=[GET]}" onto public com.example.news.commonbox.Result com.example.news.controller.AuthController.requirePermission()
+2018-12-25_18 18:18:29.716 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/article],methods=[GET]}" onto public com.example.news.commonbox.Result com.example.news.controller.AuthController.article()
+2018-12-25_18 18:18:29.719 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/news/add_news],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.NewsController.addNews(com.example.news.domain.dto.NewsDTO)
+2018-12-25_18 18:18:29.719 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/news/del/byId],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.NewsController.delById(com.example.news.domain.dto.IntIdDTO)
+2018-12-25_18 18:18:29.719 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/news/find/all],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.NewsController.findAll()
+2018-12-25_18 18:18:29.720 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/news/update/byId],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.NewsController.updateById(com.example.news.domain.dto.NewsDTO)
+2018-12-25_18 18:18:29.720 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/news/find/byId],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.NewsController.findById(com.example.news.domain.dto.IntIdDTO)
+2018-12-25_18 18:18:29.724 WARN  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/Users/lcxy_demo/.m2/repository/io/springfox/springfox-spring-web/2.7.0/springfox-spring-web-2.7.0.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/Users/lcxy_demo/.m2/repository/io/springfox/springfox-spring-web/2.7.0/springfox-spring-web-2.7.0.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'newsController' method 
+public com.example.news.commonbox.Result com.example.news.controller.NewsController.findByTypeId(com.example.news.domain.dto.IntIdDTO)
+to {[/news/find/byId],methods=[POST]}: There is already 'newsController' bean method
+public com.example.news.commonbox.Result com.example.news.controller.NewsController.findById(com.example.news.domain.dto.IntIdDTO) mapped.
+2018-12-25_18 18:18:29.728 INFO  [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2018-12-25_18 18:18:29.729 INFO  [main] org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2018-12-25_18 18:18:29.746 INFO  [main] org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-12-25_18 18:18:29.754 ERROR [main] org.springframework.boot.SpringApplication - Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'documentationPluginsBootstrapper' defined in URL [jar:file:/Users/lcxy_demo/.m2/repository/io/springfox/springfox-spring-web/2.7.0/springfox-spring-web-2.7.0.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/Users/lcxy_demo/.m2/repository/io/springfox/springfox-spring-web/2.7.0/springfox-spring-web-2.7.0.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'newsController' method 
+public com.example.news.commonbox.Result com.example.news.controller.NewsController.findByTypeId(com.example.news.domain.dto.IntIdDTO)
+to {[/news/find/byId],methods=[POST]}: There is already 'newsController' bean method
+public com.example.news.commonbox.Result com.example.news.controller.NewsController.findById(com.example.news.domain.dto.IntIdDTO) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1198)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.example.news.NewsApplication.main(NewsApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webMvcRequestHandlerProvider' defined in URL [jar:file:/Users/lcxy_demo/.m2/repository/io/springfox/springfox-spring-web/2.7.0/springfox-spring-web-2.7.0.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'newsController' method 
+public com.example.news.commonbox.Result com.example.news.controller.NewsController.findByTypeId(com.example.news.domain.dto.IntIdDTO)
+to {[/news/find/byId],methods=[POST]}: There is already 'newsController' bean method
+public com.example.news.commonbox.Result com.example.news.controller.NewsController.findById(com.example.news.domain.dto.IntIdDTO) mapped.
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:749)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1198)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1100)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1280)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1178)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1094)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1064)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'newsController' method 
+public com.example.news.commonbox.Result com.example.news.controller.NewsController.findByTypeId(com.example.news.domain.dto.IntIdDTO)
+to {[/news/find/byId],methods=[POST]}: There is already 'newsController' bean method
+public com.example.news.commonbox.Result com.example.news.controller.NewsController.findById(com.example.news.domain.dto.IntIdDTO) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1631)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:481)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:312)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:1314)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1280)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveMultipleBeans(DefaultListableBeanFactory.java:1178)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1094)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1064)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	... 36 common frames omitted
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'newsController' method 
+public com.example.news.commonbox.Result com.example.news.controller.NewsController.findByTypeId(com.example.news.domain.dto.IntIdDTO)
+to {[/news/find/byId],methods=[POST]}: There is already 'newsController' bean method
+public com.example.news.commonbox.Result com.example.news.controller.NewsController.findById(com.example.news.domain.dto.IntIdDTO) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:576)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:540)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:264)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:250)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:214)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:134)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1689)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1627)
+	... 50 common frames omitted
+2018-12-25_18 18:25:30.656 INFO  [main] com.example.news.NewsApplication - Starting NewsApplication on localhost with PID 57430 (/Users/lcxy_demo/IdeaProjects/news/target/classes started by lcxy_demo in /Users/lcxy_demo/IdeaProjects/news)
+2018-12-25_18 18:25:30.682 INFO  [main] com.example.news.NewsApplication - The following profiles are active: dev
+2018-12-25_18 18:25:30.854 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1139b2f3: startup date [Tue Dec 25 18:25:30 CST 2018]; root of context hierarchy
+2018-12-25_18 18:25:31.087 INFO  [background-preinit] org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.6.Final
+2018-12-25_18 18:25:34.248 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.example.news.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$4df70157] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:34.278 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validatorConfig' of type [com.example.news.config.ValidatorConfig$$EnhancerBySpringCGLIB$$30c916dd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:34.393 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'validator' of type [org.hibernate.validator.internal.engine.ValidatorImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:34.720 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:34.737 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$106710f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:34.745 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$f73eb538] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:34.749 INFO  [main] com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2018-12-25_18 18:25:34.847 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:34.856 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidFilterConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:35.205 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'statFilter' of type [com.alibaba.druid.filter.stat.StatFilter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:35.515 INFO  [main] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-25_18 18:25:35.515 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:35.529 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:35.541 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:35.625 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authenticationMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:35.627 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authenticationMapper' of type [com.sun.proxy.$Proxy67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:35.628 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authManager' of type [com.example.news.manager.AuthManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:35.629 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authService' of type [com.example.news.service.AuthService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:35.630 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'myRealm' of type [com.example.news.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:35.933 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:35.973 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:36.005 INFO  [main] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dd92bfc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-25_18 18:25:36.609 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8083 (http)
+2018-12-25_18 18:25:36.629 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8083"]
+2018-12-25_18 18:25:36.642 INFO  [main] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-12-25_18 18:25:36.642 INFO  [main] org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-12-25_18 18:25:36.849 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-12-25_18 18:25:36.850 INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5996 ms
+2018-12-25_18 18:25:37.638 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-12-25_18 18:25:37.645 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'statViewServlet' to [/druid/*]
+2018-12-25_18 18:25:37.651 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-25_18 18:25:37.652 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-25_18 18:25:37.652 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-12-25_18 18:25:37.652 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-25_18 18:25:37.652 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-25_18 18:25:37.653 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'shiroFilter' to: [/*]
+2018-12-25_18 18:25:38.892 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/article],methods=[GET]}" onto public com.example.news.commonbox.Result com.example.news.controller.AuthController.article()
+2018-12-25_18 18:25:38.894 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/login],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.AuthController.login(com.example.news.domain.dto.LoginDTO)
+2018-12-25_18 18:25:38.894 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/refresh_token],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.AuthController.refreshToken()
+2018-12-25_18 18:25:38.894 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/require_auth],methods=[GET]}" onto public com.example.news.commonbox.Result com.example.news.controller.AuthController.requireAuth()
+2018-12-25_18 18:25:38.895 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/require_role],methods=[GET]}" onto public com.example.news.commonbox.Result com.example.news.controller.AuthController.requireRole()
+2018-12-25_18 18:25:38.895 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/require_permission],methods=[GET]}" onto public com.example.news.commonbox.Result com.example.news.controller.AuthController.requirePermission()
+2018-12-25_18 18:25:38.895 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/get_role],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.AuthController.getRole() throws com.example.news.exception.SuccessException
+2018-12-25_18 18:25:38.897 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/news/add_news],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.NewsController.addNews(com.example.news.domain.dto.NewsDTO)
+2018-12-25_18 18:25:38.898 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/news/del/byId],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.NewsController.delById(com.example.news.domain.dto.IntIdDTO)
+2018-12-25_18 18:25:38.898 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/news/update/byId],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.NewsController.updateById(com.example.news.domain.dto.NewsDTO)
+2018-12-25_18 18:25:38.898 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/news/find/all],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.NewsController.findAll()
+2018-12-25_18 18:25:38.899 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/news/find/byId],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.NewsController.findById(com.example.news.domain.dto.IntIdDTO)
+2018-12-25_18 18:25:38.899 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/news/find/byTypeId],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.NewsController.findByTypeId(com.example.news.domain.dto.IntIdDTO)
+2018-12-25_18 18:25:38.901 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/newstype/add_newsType],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.NewsTypeController.addNewsType(com.example.news.domain.dto.NewsTypeDTO)
+2018-12-25_18 18:25:38.901 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/newstype/del/byId],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.NewsTypeController.delById(com.example.news.domain.dto.IntIdDTO)
+2018-12-25_18 18:25:38.901 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/newstype/update/byId],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.NewsTypeController.updateById(com.example.news.domain.dto.NewsTypeDTO)
+2018-12-25_18 18:25:38.902 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/newstype/find/all],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.NewsTypeController.findAll()
+2018-12-25_18 18:25:38.902 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/newstype/find/byId],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.NewsTypeController.findById(com.example.news.domain.dto.IntIdDTO)
+2018-12-25_18 18:25:38.905 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/review/del/byId],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.ReviewController.delById(com.example.news.domain.dto.IntIdDTO)
+2018-12-25_18 18:25:38.905 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/review/update/byId],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.ReviewController.updateById(com.example.news.domain.dto.ReviewDTO)
+2018-12-25_18 18:25:38.906 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/review/find/byId],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.ReviewController.findById(com.example.news.domain.dto.IntIdDTO)
+2018-12-25_18 18:25:38.906 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/review/add_review],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.ReviewController.addReview(com.example.news.domain.dto.ReviewDTO)
+2018-12-25_18 18:25:38.906 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/user/add_user],methods=[POST]}" onto public com.example.news.commonbox.Result com.example.news.controller.UsersController.addUser(com.example.news.domain.dto.UserDTO)
+2018-12-25_18 18:25:38.910 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-12-25_18 18:25:38.911 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-12-25_18 18:25:38.911 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-12-25_18 18:25:38.914 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-12-25_18 18:25:38.915 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-25_18 18:25:39.408 INFO  [main] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-12-25_18 18:25:39.809 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1139b2f3: startup date [Tue Dec 25 18:25:30 CST 2018]; root of context hierarchy
+2018-12-25_18 18:25:39.908 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-25_18 18:25:39.908 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-25_18 18:25:39.945 INFO  [main] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalExceptionController
+2018-12-25_18 18:25:39.999 INFO  [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-25_18 18:25:40.524 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-12-25_18 18:25:40.528 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'statFilter' has been autodetected for JMX exposure
+2018-12-25_18 18:25:40.528 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-12-25_18 18:25:40.535 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2018-12-25_18 18:25:40.537 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2018-12-25_18 18:25:40.540 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+2018-12-25_18 18:25:40.540 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2018-12-25_18 18:25:40.558 INFO  [main] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2018-12-25_18 18:25:40.595 INFO  [main] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2018-12-25_18 18:25:40.901 INFO  [main] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: delByIdUsingPOST_1
+2018-12-25_18 18:25:40.903 INFO  [main] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findAllUsingPOST_1
+2018-12-25_18 18:25:40.907 INFO  [main] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingPOST_1
+2018-12-25_18 18:25:40.918 INFO  [main] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: updateByIdUsingPOST_1
+2018-12-25_18 18:25:40.928 INFO  [main] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: delByIdUsingPOST_2
+2018-12-25_18 18:25:40.932 INFO  [main] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: findByIdUsingPOST_2
+2018-12-25_18 18:25:40.936 INFO  [main] springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator - Generating unique operation named: updateByIdUsingPOST_2
+2018-12-25_18 18:25:40.958 INFO  [main] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8083"]
+2018-12-25_18 18:25:40.984 INFO  [main] org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-12-25_18 18:25:40.996 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8083 (http)
+2018-12-25_18 18:25:41.003 INFO  [main] com.example.news.NewsApplication - Started NewsApplication in 11.334 seconds (JVM running for 12.756)
+2018-12-25_18 18:26:00.893 INFO  [http-nio-8083-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-12-25_18 18:26:00.894 INFO  [http-nio-8083-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-12-25_18 18:26:00.926 INFO  [http-nio-8083-exec-1] org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2018-12-25_18 18:26:01.711 WARN  [http-nio-8083-exec-4] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Failed to invoke @ExceptionHandler method: public com.example.news.commonbox.Result com.example.news.controller.GlobalExceptionController.globalException(javax.servlet.http.HttpServletRequest,java.lang.Throwable)
+org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:321)
+	at org.apache.catalina.connector.OutputBuffer.flush(OutputBuffer.java:284)
+	at org.apache.catalina.connector.CoyoteOutputStream.flush(CoyoteOutputStream.java:118)
+	at sun.nio.cs.StreamEncoder.implFlush(StreamEncoder.java:297)
+	at sun.nio.cs.StreamEncoder.flush(StreamEncoder.java:141)
+	at java.io.OutputStreamWriter.flush(OutputStreamWriter.java:229)
+	at org.springframework.http.converter.json.GsonHttpMessageConverter.writeInternal(GsonHttpMessageConverter.java:199)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:231)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:174)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:81)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:113)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:381)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:59)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:132)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:76)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1222)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1034)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1306)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:726)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:679)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:669)
+	at org.apache.coyote.http11.Http11OutputBuffer$SocketOutputBuffer.flush(Http11OutputBuffer.java:646)
+	at org.apache.coyote.http11.filters.ChunkedOutputFilter.flush(ChunkedOutputFilter.java:169)
+	at org.apache.coyote.http11.Http11OutputBuffer.flush(Http11OutputBuffer.java:252)
+	at org.apache.coyote.http11.Http11Processor.flush(Http11Processor.java:1561)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:380)
+	at org.apache.coyote.Response.action(Response.java:173)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:317)
+	... 78 common frames omitted
+2018-12-25_18 18:26:10.273 WARN  [http-nio-8083-exec-9] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.apache.shiro.authz.UnauthenticatedException: The current Subject is not authenticated.  Access denied.]
+2018-12-25_18 18:27:21.385 WARN  [http-nio-8083-exec-5] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.apache.shiro.authz.UnauthorizedException: Subject does not have permission [permission:view]]
+2018-12-25_18 18:28:00.509 WARN  [http-nio-8083-exec-7] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.apache.shiro.authz.UnauthorizedException: Subject does not have permission [type:体育]]
+2018-12-25_18 18:28:19.210 INFO  [http-nio-8083-exec-4] org.springframework.beans.factory.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+2018-12-25_18 18:28:19.284 WARN  [http-nio-8083-exec-4] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'news.newstype' doesn't exist
+### The error may exist in com/example/news/mapper/NewsTypeMapper.java (best guess)
+### The error may involve com.example.news.mapper.NewsTypeMapper.findById-Inline
+### The error occurred while setting parameters
+### SQL: Select id,type_name,type_jpg from newsType where id = ?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'news.newstype' doesn't exist
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'news.newstype' doesn't exist]
+2018-12-25_18 18:29:12.978 INFO  [Thread-26] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1139b2f3: startup date [Tue Dec 25 18:25:30 CST 2018]; root of context hierarchy
+2018-12-25_18 18:29:12.982 INFO  [Thread-26] org.springframework.context.support.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2018-12-25_18 18:29:12.983 INFO  [Thread-26] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-12-25_18 18:29:12.984 INFO  [Thread-26] org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-12-25_18 18:29:12.995 INFO  [Thread-26] com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
